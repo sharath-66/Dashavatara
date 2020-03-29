@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>Lord Vishnu’s Dashavtar (10 incarnations)</title>
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.05s
+    }
+
+    .sidenav a:hover,
+    .offcanvas a:focus {
+      color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 650px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+  <!-- ionic/angularjs js -->
+  <script src="../lib/ionic/js/ionic.bundle.min.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+
+
+<body ng-app="starter" style="background-color:Cyan;">
+
+  <ion-pane>
+    <ion-header-bar class="bar-dark">
+      <button class="button icon ion-navicon" onclick="openNav()"></button>
+      <h1 class="title">Dashavatar, Analysis- scientific and morol</h1>
+
+    </ion-header-bar>
+
+
+
+    <ion-content style="background-color:Cyan;">
+      <div style="text-align:center; color:#961872"><b><i>"Whenever Dharma, or the situation of law and order, is
+            endangered
+            on this world,
+            I shall incarnate onto this world to re-establish Dharma, law and order, and to
+            protect the good people and to destroy the evil elements of the society."</i></b></div><br /><br />
+      <div style="text-align:center; color:rgb(247, 63, 7);">Vishnu is the name given to the protector and sustainer of
+        the
+        universe.<br /> Lord Vishnu, has
+        incarnated in various life forms through different yugas (ages or eons) in situations where
+        Dharma was in danger, because of certain evil elements in the world.<br /> There are ten
+        incarnations of Lord Vishnu. These incarnations are termed as the 'avatars' of Lord Vishnu.<br />
+        Each avatar of Lord Vishnu shall be presented below with appropriate details of the situation
+        under which the lord was compelled to appear on the earth.<br />
+        While many explanations are given for the 10 avatars of Vishnu, one can see striking
+        similarity of these stories with the theory of evolution of life.<br /></div><br /><br />
+      <hr>
+      <div style="text-align:center;"><i>All the incarnations(Avatars) of the Almighty supports one of if not the most
+          famous
+          shlok ---------> <br />
+          <div style="font-size:14px;"><b>"Dharm~Eva Hota Hanti, <span
+                style="font-weight:1000; background-color:yellow">Dharmo Rakshati Rakshitaha!</span><br />
+              Tasma-Dharmo Na Hantvyo, Ma No Dharmo Hato-Vadhit"</b><br />
+            which says <br />
+            <b>"Dharma destroys the destroyer; <span style="font-weight:1000; background-color:yellow;">Dharma protects
+                the
+                protector.</span><br />
+              Therefore, Dharma doesnot destroy, nor Dharma can be destroyed."</b><br />
+            <h5>You'll find the actual meaning of the above shlok in further studies,
+              <br>
+              so just read along to know more about the logical ethical and scientific greatness of Indian
+              <b>Mythology</b>
+            </h5>
+
+          </div>
+          <hr>
+        </i>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="pages/01.html">MATSYA Avatar</a><br />
+        <a href="pages/02.html">KURMA Avatar</a><br />
+        <a href="pages/03.html">VARAHA Avatar</a><br />
+        <a href="pages/04.html">NARASIMHA Avatar</a><br />
+        <a href="pages/05.html">VAMANA Avatar</a><br />
+        <a href="pages/06.html">PARASHURAMA Avatar</a><br />
+        <a href="pages/07.html">RAMA Avatar</a><br />
+        <a href="pages/08.html">KRISHNA Avatar</a><br />
+        <a href="pages/09.html">BUDDHA Avatar</a><br />
+        <a href="pages/10.html">KALKI Avatar</a><br />
+      </div>
+      <!--<div class="bar bar-footer bar-positive">
+        <div class="title">Read Along and explore the greatness of Hinduism
+        </div>
+      </div>-->
+
+    </ion-content>
+
+
+  </ion-pane>
+
+  </span>
+
+  <script>
+
+    /* Set the width of the side navigation to
+    300px */
+
+    function openNav() {
+      document.getElementById("mySidenav")
+        .style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav")
+        .style.width = "0";
+    }
+  </script>
+  <script src="admob.js"></script>
+  <script src="app.js"></script>
+</body>
+<button class="button icon ion-home"></button>
+
+</html>

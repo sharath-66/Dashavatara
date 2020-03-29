@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <link rel="manifest" href="../manifest.json">
+
+  <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+  <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+  <!-- ionic/angularjs js -->
+  <script src="../lib/ionic/js/ionic.bundle.min.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="../cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="../js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+
+  <ion-pane>
+    <ion-header-bar class="bar-stable bar-positive">
+      <h1 class="title">Buddha Avatar</h1>
+    </ion-header-bar>
+    <ion-content style="background-color:#A6B8C1;">
+      <b>
+        <div style="color:#475D12; text-align:center;">
+          <h4>The Story of BUDDHA Avatar</h4>
+        </div>
+      </b><br />
+      <i>
+        <div style="color:#13414B; text-align:center;">In BUDDHA Avatar, Lord Vishnu incarnates himself as BUDDHA, the
+          ascetic prince who renounced the throne to lead the world on the path of peace.<br /> He is the
+          founder of the BUDDHIST religion prominent across the world.<br /> In certain sects of Hinduism,
+          he is considered to be a divine incarnation of Lord Vishnu.<br /> He was born the crown prince of
+          the Kapilavastu to Suddhodana and Maya.<br /> He was named Siddhartha, meaning "All thing
+          fulfilled" by the king.<br /> But his mother died soon after his birth but Prajapati, the sister of
+          Maya, brought Siddhartha up.<br />
+          Buddha was saddened by death of living creatures, since his childhood days and used to
+          question: "Alas! Do all living creatures kill each other?" He wasn't happy with any answers
+          that were provided to him and he decided to find out the meaning and the absolute truth
+          and he left his wife and child to a hermit's life in the forest and one day, became the
+          enlightened one.<br /> His preaching spawned off the religion of Buddhism now popular across the
+          whole world.</div>
+      </i><br />
+      <hr>
+      <b>
+        <h4 style="text-align:center;">Analysis:</h4>
+      </b>
+      <div style="text-align:center;"><i>In some old Puranas that were written before the start of 1st century i.e.,
+          before Christ <b>do-not</b> consider Gauthama aka Siddhartha Buddha as the incarnation of Shree Vishnu.<br />
+          But as of now let us consider some of the achievements of Buddha:<br />
+          In the start of KaliYuga many many human and animals were sacrifised as a part of ritual practice and
+          therefore Shree MahaVishnu incarnation was very much necessary for the installation of peace in Earth,
+          and that's what Buddha was always meant to be and he always did just that.<br />
+          Buddha was also meant to be as peace-keeper for the people of Earth and that's what Buddha did.
+        </i></div>
+      <hr>
+      
+      <div style="text-align: left;">     
+        <a class="button button-calm" onclick="showInterstitialAd()" href="08.html">Previous Avatar</a>
+      </div>
+      
+      <center>
+        <a class="button button-positive" onclick="showRewardedVideoAd()" href="../index.html">Home</a>
+      </center>
+
+      <div style="text-align: right;">
+        <a class="button button-calm" onclick="showInterstitialAd()" href="10.html">Next Avatar</a>
+      </div>
+
+    </ion-content>
+  </ion-pane>
+  <script src="../admob.js"></script>
+  <script src="../app.js"></script>
+</body>
+
+</html>

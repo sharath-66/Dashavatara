@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <link rel="manifest" href="../manifest.json">
+
+  <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+  <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+  <!-- ionic/angularjs js -->
+  <script src="../lib/ionic/js/ionic.bundle.min.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="../cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="../js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+
+  <ion-pane>
+    <ion-header-bar class="bar-stable bar-positive">
+      <h1 class="title">Narasimha Avatar</h1>
+    </ion-header-bar>
+    <ion-content style="background-color:#A6B8C1;">
+      <b>
+        <div style="color:#475D12; text-align:center;">
+          <h4>The Story of NARASIMHA Avatar</h4>
+        </div>
+      </b><br />
+      <i>
+        <div style="color:#13414B; text-align:center;">In Narasimha Avatar, Lord Vishnu incarnates himself as a
+          semi-man, semi-lion in this world.<br /> The king of demons
+          (asuras), HiranyaKasyapa, wanted to become immortal and
+          wanted to remain young forever.<br /> To this end, he meditated
+          for Lord Brahma and because of his severe penance, the
+          gods were frightened and asked Brahma to pacify the king.<br /> Brahma was impressed by his
+          austerity and granted him a wish.<br /> HiranyaKasyapa wished that he be neither killed by a man
+          or beast, nor in daylight or at night and neither inside or outside a building.<br /> Having obtained
+          the wish he considered himself the supreme God and forbade all worship of gods by anyone.<br />
+          But his son Prahlada, was an ardent devotee of Vishnu.<br /> This enraged HiranyaKasyapa very
+          much.<br /> He ordered numerous ways to kill Prahlada including asking his sister Holika to sit
+          with Prahlada in the fire.<br /> But everytime Prahlada escaped unhurt.<br /> Enraged, once he asked
+          Prahlad to show him the Lord Vishnu.<br /> Prahlad said, "He is everywhere".<br /> Further enraged,
+          HiranyaKasyapa knocked down a pillar, and asked if Lord was present there.<p> Lord Vishnu
+            then emerged as a half lion, half man from the pillar which was neither inside the house nor
+            outside, and the time was evening, neither night nor day.</p> He then killed HiranyaKasyapa
+          thus saving the life of his devotee Prahlada.</div>
+      </i>
+      <hr>
+      <b>
+        <h4 style="text-align:center;">Analysis:</h4>
+      </b>
+      <div style="text-align:center;"><i>This incarnation of Vishnu proves that as far you are towards the path of
+          ADharma(by the side of bad) not even the <b>lord Brahma's</b> boon of immortality can save you,<br />
+          and as far as you are on the path of Dharma(goodness) not even the most evil persons(here HiranyaKasyapa) can
+          kill you.
+        </i>
+      </div>
+      <hr>
+      
+      <div style="text-align: left;">     
+        <a class="button button-calm" onclick="showInterstitialAd()" href="03.html">Previous Avatar</a>
+      </div>
+      
+      <center>
+        <a class="button button-positive" onclick="showRewardedVideoAd()" href="../index.html">Home</a>
+      </center>
+
+      <div style="text-align: right;">
+        <a class="button button-calm" onclick="showInterstitialAd()" href="05.html">Next Avatar</a>
+      </div>
+
+    </ion-content>
+  </ion-pane>
+  <script src="../admob.js"></script>
+  <script src="../app.js"></script>
+</body>
+
+</html>

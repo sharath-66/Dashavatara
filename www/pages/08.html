@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <link rel="manifest" href="../manifest.json">
+
+  <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+  <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+  <!-- ionic/angularjs js -->
+  <script src="../lib/ionic/js/ionic.bundle.min.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="../cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="../js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+
+  <ion-pane>
+    <ion-header-bar class="bar-stable bar-positive">
+      <h1 class="title">Krishna Avatar</h1>
+    </ion-header-bar>
+    <ion-content style="background-color:#A6B8C1;">
+      <b>
+        <div style="color:#475D12; text-align:center;">
+          <h4>The Story of KRISHNA Avatar</h4>
+        </div>
+      </b><br />
+      <i>
+        <div style="color:#13414B; text-align:center;">In KRISHNA Avatar, Lord Vishnu incarnates himself as
+          KRISHNA , the central character in the epic MAHABHARATA.<br />
+          In the biggest epic of Indian mythology a myriad of topics
+          are covered, including war, love, brotherhood, politics etc.<br />
+          It is essentially the story of two warring groups of cousin
+          brothers, the PANDAVAs and the KAURAVAs.<br /> As a part of
+          the Mahabharata, during the war KRISHNA, gives a long
+          discourse to his disciple ARJUNA, collectively termed as
+          Bhagvad-Gita.<br />
+          Krishna, during his child-hood was responsible for the killing of Kamsa.<br /> Krishna is also
+          considered to be an ultimate playboy who was responsible for charming all gopikaas around
+          him.<br /></div>
+      </i>
+      <hr>
+      <b>
+        <h4 style="text-align:center;">Analysis:</h4>
+      </b>
+      <div style="text-align:center;"><i>
+          <p>Unlike Ramayan, Mahabharata deals with more down to earth issues like politics, human
+            nature, human weaknesses, and does not attempt to idealise the characters as in Ramayan.</p>
+          In Mahabharata Shree Krishna is widely known and acknowledged as hero of the whole story of Mahabharata, not
+          to mention even in Kurukshethra,<br />
+          which was held for the withstandingness of Dharma by the lord Shree Krishna.<br />
+          He thought us for the withstandingness of Dharma we may cheat.<br />
+          It's also wisely said by Krishna that <span style="font-weight:1000; background-color:yellow;"><b>"EVERYTHING
+              IS FAIR IN LOVE AND WAR"</b></span> when he asked Arjuna to kill great warriors like Drona, Karna, Bhishma
+          etc unethically.<br />
+          It is also believed that all the great weapons used in Kurukshethra are for real and that the weapons are
+          nothing but Nuclear weapons.<br />
+          It can be seen even in <a
+            href="https://www.google.co.in/search?q=kurukshetra&oq=kurukshetra&aqs=chrome..69i57.24303j0j7&sourceid=chrome&ie=UTF-8;"><span
+              style="background-color:yellow;">Kurukshetra</span></a>, a city in Haryana where Kurukshethra war is
+          believed to have been taken place, the land is unfertile,<br />
+          which might be due to use of nuclear weapons just like in Hiroshima and Nagasaki.
+        </i></div>
+      <hr>
+      
+      <div style="text-align: left;">     
+        <a class="button button-calm" onclick="showInterstitialAd()" href="07.html">Previous Avatar</a>
+      </div>
+      
+      <center>
+        <a class="button button-positive" onclick="showRewardedVideoAd()" href="../index.html">Home</a>
+      </center>
+
+      <div style="text-align: right;">
+        <a class="button button-calm" onclick="showInterstitialAd()" href="09.html">Next Avatar</a>
+      </div>
+
+    </ion-content>
+  </ion-pane>
+  <script src="../admob.js"></script>
+  <script src="../app.js"></script>
+</body>
+
+</html>

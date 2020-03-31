@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.GDG.Dashavatara" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" 
+<widget id="com.GDG.Dashavatara" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" 
 xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <!--Change name of the app when using with other apps-->
     <name>Dashavatara - Analysis</name>
@@ -40,7 +40,7 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
         <!--Just need to change value I think-->
         <!-- Admob Live Ads id :- ca-app-pub-5039568744793885~7437604060 -->
         <!-- Admob Test Ads id :- ca-app-pub-3940256099942544~3347511713 -->
-        <variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544~3347511713" />
+        <variable name="ADMOB_APP_ID" value="ca-app-pub-5039568744793885~7437604060" />
     </plugin>
     
           

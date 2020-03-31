@@ -6,9 +6,9 @@ var admobid = {
   rewardvideo: 'ca-app-pub-3940256099942544/5224354917'
 
   //--- Live Ads ---
-  // banner: 'ca-app-pub-5039568744793885/1414093523',
-  // interstitial: 'ca-app-pub-5039568744793885/2535603504',
-  // rewardvideo: 'ca-app-pub-5039568744793885/4811440724'
+  //banner: 'ca-app-pub-5039568744793885/1414093523',
+  //interstitial: 'ca-app-pub-5039568744793885/2535603504',
+  //rewardvideo: 'ca-app-pub-5039568744793885/4811440724'
  
 };
 
@@ -41,7 +41,7 @@ function initAd() {
   registerAdEvents();
   AdMob.prepareInterstitial({ 
     adId: admobid.interstitial,
-    autoShow: false
+    autoShow: true
    });
   AdMob.createBanner({
     adId: admobid.banner,
